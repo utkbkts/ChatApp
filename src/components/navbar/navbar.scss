@@ -1,0 +1,35 @@
+.Navbar-Container {
+    background-color: #353232;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-inline: 10px;
+    color: white;
+    .wrapper-container {
+        
+        h1{
+            font-size: 14px;
+        }
+    }
+    .span-wrapper {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+
+        img{
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            border: 1px solid white;
+        }
+
+        button{
+            border: none;
+            background: #EA2B2B;
+            color: white;
+            padding: 5px 10px;
+            cursor: pointer;
+        }
+    }
+}

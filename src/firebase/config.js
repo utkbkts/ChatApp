@@ -1,0 +1,18 @@
+import { initializeApp } from "firebase/app";
+import { getAuth } from "firebase/auth";
+import { getFirestore } from "firebase/firestore";
+import { getStorage } from "firebase/storage";
+
+const firebaseConfig = {
+  apiKey: "AIzaSyBvJ5oZwVHz14KeNb4DfR0qApG3igXzphQ",
+  authDomain: "instagram-88617.firebaseapp.com",
+  projectId: "instagram-88617",
+  storageBucket: "instagram-88617.appspot.com",
+  messagingSenderId: "275119720073",
+  appId: "1:275119720073:web:4f4253d9cd67befa8aa858"
+};
+
+const app = initializeApp(firebaseConfig);
+export const auth = getAuth(app);
+export const db = getFirestore(app);
+export const storage = getStorage(app);

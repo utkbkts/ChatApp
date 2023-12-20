@@ -1,0 +1,32 @@
+.content{
+    padding: 10px;
+
+    .__a{
+        display: flex;
+        color: white;
+        gap: 10px;
+        flex-direction: column;
+        padding: 10px;
+        border-radius: 4px;
+        &:hover{
+            background: brown;
+        }
+        img{
+            width: 30px;
+            border-radius: 50%;
+            height: 30px;
+        }
+
+        .__c{
+            display: flex;
+            gap: 5px;
+            align-items: center;
+        }
+        .__d{
+            .text{
+                color: lightgray;
+                font-size: 12px;
+            }
+        }
+    }
+}
